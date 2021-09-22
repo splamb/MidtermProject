@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Sean\\.nuget\\packages\\": {}
+    "C:\\Users\\seanf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
+      "projectUniqueName": "C:\\Users\\seanf\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
       "projectName": "MidtermProject",
-      "projectPath": "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
-      "packagesPath": "C:\\Users\\Sean\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\obj\\",
+      "projectPath": "C:\\Users\\seanf\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
+      "packagesPath": "C:\\Users\\seanf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\seanf\\Source\\Repos\\MidtermProject\\MidtermProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\seanf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
