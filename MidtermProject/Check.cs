@@ -10,9 +10,9 @@ namespace MidtermProject
     {
         public string PaymentType { get; set; }
 
-        private int _checkNumber;
+        private string _checkNumber;
 
-        public int CheckNumber
+        public string CheckNumber
         {
             get
             {
