@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MidtermProject
 {
-    class Credit
+    class Credit: PaymentInfo
     {
         public string PaymentType { get; set; }
 
@@ -53,5 +53,12 @@ namespace MidtermProject
         }
 
         public float PaymentAmount { get; set; }
+
+        public void PrintReceipt(float grandTotal, float subtotal, List<string> boughtItems)
+        {
+            Console.WriteLine(boughtItems);
+            Console.WriteLine($"Subtotal: ${subtotal}");
+            Console.WriteLine($"Grand Total: ${grandTotal}");
+        }
     }
 }
