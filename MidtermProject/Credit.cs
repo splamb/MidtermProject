@@ -10,9 +10,9 @@ namespace MidtermProject
     {
         public string PaymentType { get; set; }
 
-        private int _creditCardNumber;
+        private string _creditCardNumber;
 
-        public int CreditCardNumber
+        public string CreditCardNumber
         {
             get
             {
@@ -24,9 +24,9 @@ namespace MidtermProject
             }
         }
 
-        private int _expiration;
+        private string _expiration;
 
-        public int Expiration
+        public string Expiration
         {
             get
             {
@@ -38,9 +38,9 @@ namespace MidtermProject
             }
         }
 
-        private int _cw;
+        private string _cw;
 
-        public int CW
+        public string CW
         {
             get
             {
