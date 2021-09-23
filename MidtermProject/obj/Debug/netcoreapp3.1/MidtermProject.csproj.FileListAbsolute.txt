@@ -1,0 +1,14 @@
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.csproj.AssemblyReference.cache
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.AssemblyInfoInputs.cache
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.AssemblyInfo.cs
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.csproj.CoreCompileInputs.cache
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.exe
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.deps.json
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.runtimeconfig.json
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.runtimeconfig.dev.json
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.dll
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.pdb
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.dll
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.pdb
+C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.genruntimeconfig.cache

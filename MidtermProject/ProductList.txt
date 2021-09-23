@@ -1,1 +1,12 @@
 ﻿Coffee,1.00
+Espresso,2.00
+Latte,3.00
+Cappuccino,3.50
+Tea,2.00
+Orange Juice,2.50
+Apple Juice,2.50
+Water,1.50
+Sparkling Water,2.50
+Croissant,2.00
+Bagel,2.50
+English Muffin,1.50

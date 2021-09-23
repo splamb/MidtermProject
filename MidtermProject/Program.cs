@@ -14,7 +14,7 @@ namespace MidtermProject
             bool paymentTypeCheck = false;
             while (paymentTypeCheck != true)
             {
-                Console.WriteLine($"Your amount due is {grandTotal}. How will you be paying today?(cash, credit, check)");
+                //Console.WriteLine($"Your amount due is {grandTotal}. How will you be paying today?(cash, credit, check)");
                 string paymentType = Console.ReadLine().ToLower();
 
                 if (paymentType == "cash")

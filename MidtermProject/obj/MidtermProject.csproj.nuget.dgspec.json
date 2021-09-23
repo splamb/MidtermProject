@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seanf\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj": {}
+    "C:\\Users\\seanf\\Source\\Repos\\splamb\\MidtermProject\\MidtermProject\\MidtermProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seanf\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj": {
+    "C:\\Users\\seanf\\Source\\Repos\\splamb\\MidtermProject\\MidtermProject\\MidtermProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seanf\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
+        "projectUniqueName": "C:\\Users\\seanf\\Source\\Repos\\splamb\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
         "projectName": "MidtermProject",
-        "projectPath": "C:\\Users\\seanf\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
+        "projectPath": "C:\\Users\\seanf\\Source\\Repos\\splamb\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
         "packagesPath": "C:\\Users\\seanf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seanf\\Source\\Repos\\MidtermProject\\MidtermProject\\obj\\",
+        "outputPath": "C:\\Users\\seanf\\Source\\Repos\\splamb\\MidtermProject\\MidtermProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\seanf\\AppData\\Roaming\\NuGet\\NuGet.Config",
