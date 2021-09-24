@@ -12,8 +12,6 @@ namespace MidtermProject
             Console.WriteLine(product.ReadProductList());
         }
 
-        
-
         static void PayBill()
         {
             bool paymentTypeCheck = false;
@@ -60,8 +58,6 @@ namespace MidtermProject
                     Console.WriteLine("Your input was invalid. Please try again.");
                 }
             }
-
-
         }
     }
 }
