@@ -9,21 +9,18 @@ namespace MidtermProject
         public List<string> Drinks = new List<string>();
         public List<string> Prices = new List<string>();
 
-        public void ReadProductList()
+        public string ReadProductList()
         {
-            using (var reader = new StreamReader(@".\ProductList.txt"))
-            {
-                while (!reader.EndOfStream)
-                {
-                    var line = reader.ReadLine();
-                    var values = line.Split(',');
 
-                    Drinks.Add(values[0]);
-                    Prices.Add(values[1]);
-                }
+            string path = @"C:\Users\seanf\source\repos\splamb\MidtermProject\MidtermProject\ProductList.txt";
+
+            string[] readText = File.ReadAllLines(path);
+            foreach(string s in readText)
+            {
+                Console.WriteLine(s);
             }
 
-            Console.WriteLine(Drinks);
+            return null;
         }
     }
 }

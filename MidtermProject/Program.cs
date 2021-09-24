@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace MidtermProject
 {
@@ -6,8 +7,12 @@ namespace MidtermProject
     {
         static void Main(string[] args)
         {
-            
+            //var fileInfo = File.Exists(@"C:\Users\seanf\source\repos\MidtermProject\MidtermProject\ProductList.txt");
+            Product product = new Product();
+            Console.WriteLine(product.ReadProductList());
         }
+
+        
 
         static void PayBill()
         {
