@@ -12,3 +12,16 @@ C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\bin\Debug\netco
 C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.dll
 C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.pdb
 C:\Users\seanf\Source\Repos\splamb\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.genruntimeconfig.cache
+D:\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.exe
+D:\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.deps.json
+D:\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.runtimeconfig.json
+D:\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.runtimeconfig.dev.json
+D:\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.dll
+D:\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.pdb
+D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.csproj.AssemblyReference.cache
+D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.AssemblyInfoInputs.cache
+D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.AssemblyInfo.cs
+D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.csproj.CoreCompileInputs.cache
+D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.dll
+D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.pdb
+D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.genruntimeconfig.cache

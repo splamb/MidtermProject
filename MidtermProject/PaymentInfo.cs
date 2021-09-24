@@ -11,5 +11,7 @@ namespace MidtermProject
         public string PaymentType { get; set; }
 
         public float PaymentAmount { get; set; }
+
+        public void PrintReceipt(float grandTotal, float subtotal, List<string> boughtItems);
     }
 }
