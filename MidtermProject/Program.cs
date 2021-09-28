@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
+
 
 namespace MidtermProject
 {
@@ -7,9 +9,25 @@ namespace MidtermProject
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to Sean and Sean's Cafe! Please take a look at our menu below and enter a number to order the respective item.");
+
+            List<float> Prices = new List<float>();
+            ReadInPrices(Prices);
+
+            List<string> Drinks = new List<string>();
+            ReadInDrinks(Drinks);
+
             //var fileInfo = File.Exists(@"C:\Users\seanf\source\repos\MidtermProject\MidtermProject\ProductList.txt");
-            Product product = new Product();
-            Console.WriteLine(product.ReadProductList());
+            var fileInfo = File.Exists(@"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt");
+            //Product product = new Product();
+            //Console.WriteLine(product.ReadProductList());
+
+            //List<Product> OrderedItems = new List<Product>();
+            //var itemNumber = Console.ReadLine(); 
+
+            //Console.WriteLine("How many of the item would you like?");
+            //var amount = int.Parse(Console.ReadLine());
+
         }
 
         static void PayBill()
@@ -57,6 +75,32 @@ namespace MidtermProject
                 {
                     Console.WriteLine("Your input was invalid. Please try again.");
                 }
+            }
+        }
+        static void ReadInPrices(List<float> Prices)
+        {
+            // string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
+            string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
+            string[] readText = File.ReadAllLines(path);
+
+            foreach (string s in readText)
+            {
+                var value = s.Split(',');
+                Prices.Add(float.Parse(value[2]));
+            }
+        }
+
+        static void ReadInDrinks(List<string> Drinks)
+        {
+            // string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
+            string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
+
+            string[] readText = File.ReadAllLines(path);
+
+            foreach (string s in readText)
+            {
+                var value = s.Split(',');
+                Drinks.Add(value[1]);
             }
         }
     }

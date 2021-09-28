@@ -2,25 +2,81 @@
 using System.Collections.Generic;
 using System.IO;
 
+
 namespace MidtermProject
 {
     public class Product
     {
-        public List<string> Drinks = new List<string>();
-        public List<string> Prices = new List<string>();
+        
 
-        public string ReadProductList()
+        private string _idNumber;
+
+        public string IDNumber
         {
-
-            string path = @"C:\Users\seanf\source\repos\splamb\MidtermProject\MidtermProject\ProductList.txt";
-
-            string[] readText = File.ReadAllLines(path);
-            foreach(string s in readText)
+            get
             {
-                Console.WriteLine(s);
+                return _idNumber;
             }
+            set
+            {
+                _idNumber = value;
+            }
+        }
 
-            return null;
+        private string _name;
+
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
+        }
+
+        private string _description;
+
+        public string Description
+        {
+            get
+            {
+                return _description;
+            }
+            set
+            {
+                _description = value;
+            }
+        }
+
+        private string _category;
+
+        public string Category
+        {
+            get
+            {
+                return _category;
+            }
+            set
+            {
+                _category = value;
+            }
+        }
+
+        private float _price;
+
+        public float Price
+        {
+            get
+            {
+                return _price;
+            }
+            set
+            {
+                _price = value;
+            }
         }
     }
 }
