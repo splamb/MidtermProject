@@ -1,12 +1,12 @@
-﻿1.,Coffee,1.00,Caffeinated,8 oz Columbian Blend
-2.,Espresso,2.00,Caffeinated,1 oz Espresso
-3.,Latte,3.00,Caffeinated,Espresso w/ Steamed Milk
-4.,Cappuccino,3.50,Caffeinated,Espresso w/ Steamed Milk and Foam
-5.,Tea,2.00,Caffeinated,English Breakfast Blend
-6.,Orange Juice,2.50,Uncaffeinated,12 oz Minute Maid Bottle
-7.,Apple Juice,2.50,Uncaffeinated,12 oz Minute Maid Bottle
-8.,Water,1.50,Uncaffeinated,16 oz SmartWater Bottle
-9.,Sparkling Water,2.50,Uncaffeinated,12 oz La Croix
-10.,Croissant,2.00,Food Item,Buttery and Flakey Pastry
-11.,Bagel,2.50,Food Item,Choice of Toasted and Cream Cheese
-12.,English Muffin,1.50,Food Item,Choice of Toasted w/ Butter and Jam
+﻿1,Coffee,1.00,Caffeinated,8 oz Columbian Blend
+2,Espresso,2.00,Caffeinated,1 oz Espresso
+3,Latte,3.00,Caffeinated,Espresso w/ Steamed Milk
+4,Cappuccino,3.50,Caffeinated,Espresso w/ Steamed Milk and Foam
+5,Tea,2.00,Caffeinated,English Breakfast Blend
+6,Orange Juice,2.50,Uncaffeinated,12 oz Minute Maid Bottle
+7,Apple Juice,2.50,Uncaffeinated,12 oz Minute Maid Bottle
+8,Water,1.50,Uncaffeinated,16 oz SmartWater Bottle
+9,Sparkling Water,2.50,Uncaffeinated,12 oz La Croix
+10,Croissant,2.00,Food Item,Buttery and Flakey Pastry
+11,Bagel,2.50,Food Item,Choice of Toasted and Cream Cheese
+12,English Muffin,1.50,Food Item,Choice of Toasted w/ Butter and Jam
