@@ -29,6 +29,39 @@ namespace MidtermProject
             Product coffee = new Product();
             AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, coffee, 0);
 
+            Product espresso = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, espresso, 0);
+
+            Product latte = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, latte, 0);
+
+            Product cappuccino = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, cappuccino, 0);
+
+            Product tea = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tea, 0);
+
+            Product orangeJuice = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, orangeJuice, 0);
+
+            Product appleJuice = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, appleJuice, 0);
+
+            Product water = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, water, 0);
+
+            Product sparkWater = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, sparkWater, 0);
+
+            Product croissant = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, croissant, 0);
+
+            Product bagel = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, bagel, 0);
+
+            Product engMuffin = new Product();
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, engMuffin, 0);
+
             //var fileInfo = File.Exists(@"C:\Users\seanf\source\repos\MidtermProject\MidtermProject\ProductList.txt");
             var fileInfo = File.Exists(@"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt");
             //Product product = new Product();

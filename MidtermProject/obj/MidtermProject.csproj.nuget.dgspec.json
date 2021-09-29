@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj": {}
+    "C:\\Users\\SFlanigan1\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj": {}
   },
   "projects": {
-    "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj": {
+    "C:\\Users\\SFlanigan1\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
+        "projectUniqueName": "C:\\Users\\SFlanigan1\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
         "projectName": "MidtermProject",
-        "projectPath": "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
-        "packagesPath": "C:\\Users\\Sean\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\obj\\",
+        "projectPath": "C:\\Users\\SFlanigan1\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
+        "packagesPath": "C:\\Users\\SFlanigan1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SFlanigan1\\Source\\Repos\\MidtermProject\\MidtermProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SFlanigan1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
