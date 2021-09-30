@@ -25,3 +25,16 @@ D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermPro
 D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.dll
 D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.pdb
 D:\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.genruntimeconfig.cache
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.exe
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.deps.json
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.runtimeconfig.json
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.runtimeconfig.dev.json
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.dll
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\bin\Debug\netcoreapp3.1\MidtermProject.pdb
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.csproj.AssemblyReference.cache
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.AssemblyInfoInputs.cache
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.AssemblyInfo.cs
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.csproj.CoreCompileInputs.cache
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.dll
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.pdb
+C:\Users\SFlanigan1\Source\Repos\MidtermProject\MidtermProject\obj\Debug\netcoreapp3.1\MidtermProject.genruntimeconfig.cache
