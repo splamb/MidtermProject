@@ -9,8 +9,14 @@ namespace MidtermProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Sean and Sean's Cafe! Please take a look at our menu below and enter a number to order the respective item.");
+            Console.WriteLine("Welcome to Sean and Sean's Cafe! Please take a look at our menu below and enter a number to order the respective item.\n");
 
+<<<<<<< HEAD
+=======
+            List<string> Items = new List<string>();
+            DisplayMenu(Items);
+
+>>>>>>> 2329959b4c7edf47f59d19e59d054d93bb28f5f8
             List<decimal> Prices = new List<decimal>();
             ReadInPrices(Prices);
 
@@ -202,23 +208,48 @@ namespace MidtermProject
                 }
             }
         }
+<<<<<<< HEAD
+        static void ReadInPrices(List<decimal> Prices)
+=======
+
+        static void DisplayMenu(List<string> Items)
+>>>>>>> 2329959b4c7edf47f59d19e59d054d93bb28f5f8
+        {
+            string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
+            //string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
+            string[] readText = File.ReadAllLines(path);
+
+            foreach (string s in readText)
+            {
+                var value = s.Split(',');
+<<<<<<< HEAD
+                Prices.Add(decimal.Parse(value[2]));
+=======
+                Console.Write($"{value[0]}. " + $"{value[1]} ");
+                Console.WriteLine($"${value[2]}");
+                Console.WriteLine($"{value[3]}");
+                Console.WriteLine($"{value[4]}\n");
+            }
+        }
         static void ReadInPrices(List<decimal> Prices)
         {
-            // string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
-            string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
+            string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
+            //string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
             string[] readText = File.ReadAllLines(path);
 
             foreach (string s in readText)
             {
                 var value = s.Split(',');
                 Prices.Add(decimal.Parse(value[2]));
+                //Console.WriteLine(value[2]);
+>>>>>>> 2329959b4c7edf47f59d19e59d054d93bb28f5f8
             }
         }
 
         static void ReadInDrinks(List<string> Drinks)
         {
-            // string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
-            string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
+            string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
+            //string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
 
             string[] readText = File.ReadAllLines(path);
 
@@ -226,13 +257,14 @@ namespace MidtermProject
             {
                 var value = s.Split(',');
                 Drinks.Add(value[1]);
+                //Console.WriteLine(value[1]);
             }
         }
 
         static void ReadInDescriptions(List<string> Descriptions)
         {
-            // string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
-            string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
+            string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
+            //string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
 
             string[] readText = File.ReadAllLines(path);
 
@@ -245,8 +277,8 @@ namespace MidtermProject
 
         static void ReadInCategories(List<string> Category)
         {
-            // string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
-            string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
+            string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
+            //string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
 
             string[] readText = File.ReadAllLines(path);
 
@@ -259,8 +291,8 @@ namespace MidtermProject
 
         static void ReadInIDNumbers(List<string> IDNumber)
         {
-            // string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
-            string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
+            string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
+            //string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
 
             string[] readText = File.ReadAllLines(path);
 
