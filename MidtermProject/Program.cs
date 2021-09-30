@@ -11,12 +11,9 @@ namespace MidtermProject
         {
             Console.WriteLine("Welcome to Sean and Sean's Cafe! Please take a look at our menu below and enter a number to order the respective item.\n");
 
-<<<<<<< HEAD
-=======
             List<string> Items = new List<string>();
             DisplayMenu(Items);
 
->>>>>>> 2329959b4c7edf47f59d19e59d054d93bb28f5f8
             List<decimal> Prices = new List<decimal>();
             ReadInPrices(Prices);
 
@@ -32,133 +29,146 @@ namespace MidtermProject
             List<string> IDNumber = new List<string>();
             ReadInIDNumbers(IDNumber);
 
-            
-
-            Product espresso = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, espresso, 1);
-
-            Product latte = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, latte, 2);
-
-            Product cappuccino = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, cappuccino, 3);
-
-            Product tea = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tea, 4);
-
-            Product orangeJuice = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, orangeJuice, 5);
-
-            Product appleJuice = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, appleJuice, 6);
-
-            Product water = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, water, 7);
-
-            Product sparkWater = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, sparkWater, 8);
-
-            Product croissant = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, croissant, 9);
-
-            Product bagel = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, bagel, 10);
-
-            Product engMuffin = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, engMuffin, 11);
-
             bool reorderCheck = false;
             while(reorderCheck != true)
             {
-                List<Product> OrderedItems = new List<Product>();
+                var orderedItems = new Dictionary<Product, int>();
                 bool moreItemsCheck = false;
                 while(moreItemsCheck != true)
                 {
+                    int amount;
                     string input = Console.ReadLine();
                     switch (input)
                     {
                         case "1":
-                            Product tempProduct1 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct1, 0);
-                            return;
+                            Product coffee = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, coffee, 0);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(coffee, amount);
+                            break;
 
                         case "2":
-                            Product tempProduct2 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct2, 1);
-                            return;
+                            Product espresso = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, espresso, 1);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(espresso, amount);
+                            break;
 
                         case "3":
-                            Product tempProduct = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct, 2);
-                            return;
+                            Product latte = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, latte, 2);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(latte, amount); 
+                            break;
 
                         case "4":
-                            Product tempProduct4 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct4, 3);
-                            return;
+                            Product cappuccino = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, cappuccino, 3);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(cappuccino, amount);
+                            break;
 
                         case "5":
-                            Product tempProduct5 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct5, 4);
-                            return;
+                            Product tea = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tea, 4);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(tea, amount);
+                            break;
 
                         case "6":
-                            Product tempProduct6 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct6, 5);
-                            return;
+                            Product orangeJuice = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, orangeJuice, 5);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(orangeJuice, amount);
+                            break;
 
                         case "7":
-                            Product tempProduct7 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct7, 6);
-                            return;
+                            Product appleJuice = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, appleJuice, 6);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(appleJuice, amount);
+                            break;
 
                         case "8":
-                            Product tempProduct8 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct8, 7);
-                            return;
+                            Product water = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, water, 7);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(water, amount);
+                            break;
 
                         case "9":
-                            Product tempProduct9 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct9, 8);
-                            return;
+                            Product sparkling = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, sparkling, 8);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(sparkling, amount);
+                            break;
 
                         case "10":
-                            Product tempProduct10 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct10, 9);
-                            return;
+                            Product croissant = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, croissant, 9);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(croissant, amount);
+                            break;
 
                         case "11":
-                            Product tempProduct11 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct11, 10);
-                            return;
+                            Product bagel = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, bagel, 10);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(bagel, amount); 
+                            break;
 
                         case "12":
-                            Product tempProduct12 = new Product();
-                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct12, 11);
-                            return;
+                            Product englishMuffin = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, englishMuffin, 11);
+                            Console.WriteLine("How many would you like?");
+                            amount = int.Parse(Console.ReadLine());
+                            orderedItems.Add(englishMuffin, amount);
+                            break;
 
                         default:
                             Console.WriteLine("Your input was invalid.");
-                            return;
+                            break;
                     }
-                        
+
+                    bool answerCheck = false;
+                    while (answerCheck != true)
+                    {
+                        Console.WriteLine("Would you like to order another item? (Y/N)");
+                        string answer = Console.ReadLine().ToLower();
+
+                        if (answer == "y")
+                        {
+                            Console.WriteLine("Please enter the number for the item you wish to purchase.");
+                            moreItemsCheck = false;
+                            answerCheck = true;
+                        }
+                        else if (answer == "n")
+                        {
+                            moreItemsCheck = true;
+                            answerCheck = true;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Your answer was invalid.");
+                            answerCheck = false;
+                        }
+                    }
                 }
 
 
 
             }
-
-            //var fileInfo = File.Exists(@"C:\Users\seanf\source\repos\MidtermProject\MidtermProject\ProductList.txt");
-            var fileInfo = File.Exists(@"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt");
-            //Product product = new Product();
-            //Console.WriteLine(product.ReadProductList());
-
-            //List<Product> OrderedItems = new List<Product>();
-            //var itemNumber = Console.ReadLine(); 
-
-            //Console.WriteLine("How many of the item would you like?");
-            //var amount = int.Parse(Console.ReadLine());
-
         }
 
         static void PayBill()
@@ -208,12 +218,7 @@ namespace MidtermProject
                 }
             }
         }
-<<<<<<< HEAD
-        static void ReadInPrices(List<decimal> Prices)
-=======
-
         static void DisplayMenu(List<string> Items)
->>>>>>> 2329959b4c7edf47f59d19e59d054d93bb28f5f8
         {
             string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
             //string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
@@ -222,9 +227,7 @@ namespace MidtermProject
             foreach (string s in readText)
             {
                 var value = s.Split(',');
-<<<<<<< HEAD
                 Prices.Add(decimal.Parse(value[2]));
-=======
                 Console.Write($"{value[0]}. " + $"{value[1]} ");
                 Console.WriteLine($"${value[2]}");
                 Console.WriteLine($"{value[3]}");
@@ -242,7 +245,6 @@ namespace MidtermProject
                 var value = s.Split(',');
                 Prices.Add(decimal.Parse(value[2]));
                 //Console.WriteLine(value[2]);
->>>>>>> 2329959b4c7edf47f59d19e59d054d93bb28f5f8
             }
         }
 
@@ -311,7 +313,5 @@ namespace MidtermProject
             product.Category = Category[i];
             product.IDNumber = IDNumber[i];
         }
-
-        static void 
     }
 }
