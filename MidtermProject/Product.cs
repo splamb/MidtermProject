@@ -65,9 +65,9 @@ namespace MidtermProject
             }
         }
 
-        private float _price;
+        private decimal _price;
 
-        public float Price
+        public decimal Price
         {
             get
             {

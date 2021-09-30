@@ -11,7 +11,7 @@ namespace MidtermProject
         {
             Console.WriteLine("Welcome to Sean and Sean's Cafe! Please take a look at our menu below and enter a number to order the respective item.");
 
-            List<float> Prices = new List<float>();
+            List<decimal> Prices = new List<decimal>();
             ReadInPrices(Prices);
 
             List<string> Drinks = new List<string>();
@@ -26,41 +26,121 @@ namespace MidtermProject
             List<string> IDNumber = new List<string>();
             ReadInIDNumbers(IDNumber);
 
-            Product coffee = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, coffee, 0);
+            
 
             Product espresso = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, espresso, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, espresso, 1);
 
             Product latte = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, latte, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, latte, 2);
 
             Product cappuccino = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, cappuccino, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, cappuccino, 3);
 
             Product tea = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tea, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tea, 4);
 
             Product orangeJuice = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, orangeJuice, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, orangeJuice, 5);
 
             Product appleJuice = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, appleJuice, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, appleJuice, 6);
 
             Product water = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, water, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, water, 7);
 
             Product sparkWater = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, sparkWater, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, sparkWater, 8);
 
             Product croissant = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, croissant, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, croissant, 9);
 
             Product bagel = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, bagel, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, bagel, 10);
 
             Product engMuffin = new Product();
-            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, engMuffin, 0);
+            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, engMuffin, 11);
+
+            bool reorderCheck = false;
+            while(reorderCheck != true)
+            {
+                List<Product> OrderedItems = new List<Product>();
+                bool moreItemsCheck = false;
+                while(moreItemsCheck != true)
+                {
+                    string input = Console.ReadLine();
+                    switch (input)
+                    {
+                        case "1":
+                            Product tempProduct1 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct1, 0);
+                            return;
+
+                        case "2":
+                            Product tempProduct2 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct2, 1);
+                            return;
+
+                        case "3":
+                            Product tempProduct = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct, 2);
+                            return;
+
+                        case "4":
+                            Product tempProduct4 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct4, 3);
+                            return;
+
+                        case "5":
+                            Product tempProduct5 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct5, 4);
+                            return;
+
+                        case "6":
+                            Product tempProduct6 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct6, 5);
+                            return;
+
+                        case "7":
+                            Product tempProduct7 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct7, 6);
+                            return;
+
+                        case "8":
+                            Product tempProduct8 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct8, 7);
+                            return;
+
+                        case "9":
+                            Product tempProduct9 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct9, 8);
+                            return;
+
+                        case "10":
+                            Product tempProduct10 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct10, 9);
+                            return;
+
+                        case "11":
+                            Product tempProduct11 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct11, 10);
+                            return;
+
+                        case "12":
+                            Product tempProduct12 = new Product();
+                            AssignFields(Drinks, Prices, Descriptions, Category, IDNumber, tempProduct12, 11);
+                            return;
+
+                        default:
+                            Console.WriteLine("Your input was invalid.");
+                            return;
+                    }
+                        
+                }
+
+
+
+            }
 
             //var fileInfo = File.Exists(@"C:\Users\seanf\source\repos\MidtermProject\MidtermProject\ProductList.txt");
             var fileInfo = File.Exists(@"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt");
@@ -122,7 +202,7 @@ namespace MidtermProject
                 }
             }
         }
-        static void ReadInPrices(List<float> Prices)
+        static void ReadInPrices(List<decimal> Prices)
         {
             // string path = @"C:\Users\SFlanigan1\source\repos\MidtermProject\MidtermProject\ProductList.txt";
             string path = @"D:\Source\Repos\MidtermProject\MidtermProject\ProductList.txt";
@@ -131,7 +211,7 @@ namespace MidtermProject
             foreach (string s in readText)
             {
                 var value = s.Split(',');
-                Prices.Add(float.Parse(value[2]));
+                Prices.Add(decimal.Parse(value[2]));
             }
         }
 
@@ -158,7 +238,7 @@ namespace MidtermProject
 
             foreach (string s in readText)
             {
-                var value = s.Split('.');
+                var value = s.Split(',');
                 Descriptions.Add(value[4]);
             }
         }
@@ -172,7 +252,7 @@ namespace MidtermProject
 
             foreach (string s in readText)
             {
-                var value = s.Split('.');
+                var value = s.Split(',');
                 Category.Add(value[3]);
             }
         }
@@ -186,12 +266,12 @@ namespace MidtermProject
 
             foreach (string s in readText)
             {
-                var value = s.Split('.');
+                var value = s.Split(',');
                 IDNumber.Add(value[0]);
             }
         }
 
-        static void AssignFields(List<string> Drinks, List<float> Prices, List<string> Descriptions, List<string> Category, List<string> IDNumber, Product product, int i)
+        static void AssignFields(List<string> Drinks, List<decimal> Prices, List<string> Descriptions, List<string> Category, List<string> IDNumber, Product product, int i)
         {
             product.Name = Drinks[i];
             product.Price = Prices[i];
@@ -199,5 +279,7 @@ namespace MidtermProject
             product.Category = Category[i];
             product.IDNumber = IDNumber[i];
         }
+
+        static void 
     }
 }

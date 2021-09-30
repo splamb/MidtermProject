@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\SFlanigan1\\.nuget\\packages\\": {}
+    "C:\\Users\\Sean\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SFlanigan1\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
+      "projectUniqueName": "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
       "projectName": "MidtermProject",
-      "projectPath": "C:\\Users\\SFlanigan1\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
-      "packagesPath": "C:\\Users\\SFlanigan1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SFlanigan1\\Source\\Repos\\MidtermProject\\MidtermProject\\obj\\",
+      "projectPath": "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\MidtermProject.csproj",
+      "packagesPath": "C:\\Users\\Sean\\.nuget\\packages\\",
+      "outputPath": "D:\\Source\\Repos\\MidtermProject\\MidtermProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SFlanigan1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sean\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
